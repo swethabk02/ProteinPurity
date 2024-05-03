@@ -1,0 +1,149 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0; /* Reset default body margin */
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color:#dd8064;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  main {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+  }
+  
+  section {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+  }
+  
+  footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  nav ul {
+    list-style: none;
+    text-align: right; /* Aligns the list items to the right */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px; /* Add margin between list items for spacing */
+  }
+img {
+    width:90%; /* Adjust the width as needed */
+    height: 70vh; /* Maintain aspect ratio */
+    margin-left: auto; /* Align image to the right */
+    margin-right: auto; /* Align image to the left */
+    display: block; /* Ensure proper alignment */
+  }
+  body {
+    margin: 0; /* Remove default body margin */
+    padding-top: 0; /* Remove default body padding */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  #image-section {
+    margin-bottom: 0; /* Add margin between image-section and main */
+  }
+  main {
+    margin-top: 0;
+    margin-bottom: 0; /* Remove margin between main and footer */
+  }
+
+  footer {
+    margin-top: 0; /* Remove margin between footer and main */
+  }
+  .image-gallery {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+.image-gallery img {
+    width: calc(25% - 10px); /* Adjust width and margin as needed */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    height: 50vh;
+}
+.product-description {
+    text-align: center;
+    width: 100%;
+}
+    .about {
+    margin-bottom: 10px; /* Adjust the margin bottom as needed */
+}
+.photo-gallery {
+  display: flex;
+}
+.photo {
+  margin-right: 20px; /* Adjust spacing between photos */
+  text-align: center;
+}
+.photo:last-child {
+  margin-right: 0; /* Remove margin from last photo */
+}
+.photo img {
+  
+    width: 200px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the specified dimensions */
+    border-radius: 8px; 
+}
+.title {
+  margin-top: 10px;
+}
+a {
+  color: rgb(209, 124, 205);
+}
