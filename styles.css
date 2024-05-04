@@ -147,3 +147,24 @@ img {
 a {
   color: rgb(209, 124, 205);
 }
+/* Tablet and Mobile styles */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
+
+  header {
+    padding: 10px 0; /* Reduce header padding for smaller screens */
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 95%; /* Further adjust container width for very small screens */
+  }
+
+  header {
+    padding: 5px 0; /* Further reduce header padding for very small screens */
+  }
+
+  /* Additional mobile-specific styles can be added here */
+}
